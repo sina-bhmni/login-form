@@ -1,0 +1,63 @@
+@font-face {
+    font-family: vazirNormal;
+    src: url('../fonts/vazir.eot');
+    src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir.woff2') format('woff2'), url('../fonts/vazir.woff') format('woff'), url('../fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+body,
+input,
+button {
+    font-family: vazirNormal;
+}
+
+body {
+    background-color: #0E55A8;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    height: 500px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.form {
+    background-color: #7AC600;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    box-sizing: border-box;
+    -webkit-border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    -moz-border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    -ms-border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    -o-border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+.input {
+    width: 80%;
+    padding: 5px 2px;
+}
+
+.username {
+    margin-top: 80px;
+}
+
+.password {
+    margin-top: 20px;
+}
+
+.icon {
+    position: relative;
+    right: 35px;
+}
+
+.btn {
+    margin-top: 20px;
+    color: #0e55a8;
+}
